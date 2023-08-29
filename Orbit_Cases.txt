@@ -1,0 +1,73 @@
+COLD AND HOT CASES ARE DEFINED BY FINDING THE LONGEST AND SHORTEST UMBRA ECLIPSE TIMES ACROSS ALL 
+SIMULATIONS IN ECLIPSE.TXT FILES WITHIN A DEFINED ALTITUDE AND ACROSS ALL RAAN VALUES. 
+WE THEN USE THE TIME STAMPS OF THESE EXTREME ECLIPSES TO FIND THE CORRESPONDING BETA VALUES
+AND SPECIFIC ALTITUDES IN THE REPORT.TXT DATA FILES.
+
+################################################################
+#RESULTS 400km
+################################################################
+
+#COLD CASE
+
+RAAN value: 105
+['06', 'Apr', '2022', '23:49:54.273', '07', 'Apr', '2022', '00:25:49.352', '2155.0787509', 'Earth', 'Umbra', '1502', '2171.4381114']
+Maximum eclipse times: 2155.0787509
+
+Altitude = 362km
+Beta angle = -4.3
+
+#HOT CASE
+
+RAAN value: 30
+['25', 'Jan', '2022', '23:17:59.945', '25', 'Jan', '2022', '23:18:26.301', '26.356574753', 'Earth', 'Umbra', '390', '401.85484984']
+Minimum eclipse times: 26.356574753
+
+Altitude = 395km
+Beta angle = 70.11
+
+
+################################################################
+#RESULTS 450km
+################################################################
+
+#COLD CASE
+
+RAAN value: 90
+['31', 'Dec', '2022', '22:40:01.198', '31', 'Dec', '2022', '23:15:48.161', '2146.9621701', 'Earth', 'Umbra', '5668', '2163.8448385']
+Maximum eclipse times: 2146.9621701
+
+Altitude = 342km
+Beta angle = 12.13
+
+#HOT CASE
+
+RAAN value: 15
+['25', 'Apr', '2022', '22:02:12.180', '25', 'Apr', '2022', '22:02:35.257', '23.076743481', 'Earth', 'Umbra', '26', '400.34304106']
+Minimum eclipse times: 23.076743481
+
+Altitude = 455km
+Beta angle = 68.69
+
+
+################################################################
+#RESULTS for 500km
+################################################################
+
+#COLD CASE
+
+RAAN value: 90
+['21', 'May', '2022', '01:47:38.587', '21', 'May', '2022', '02:23:01.836', '2123.2497949', 'Earth', 'Umbra', '2137', '2131.6070975']
+Maximum eclipse times: 2123.2497949
+
+Altitude = 520km
+Beta angle = 7.94
+
+#HOT CASE
+
+RAAN value: 0
+['19', 'Aug', '2022', '05:25:38.109', '19', 'Aug', '2022', '05:25:59.379', '21.270393895', 'Earth', 'Umbra', '1815', '389.88410910']
+Minimum eclipse times: 21.270393895
+
+Altitude = 502.5km
+Beta angle = 67.67
+
